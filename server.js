@@ -6,5 +6,5 @@ const host = 'localhost';
 const PORT = 8000;
 
 app.listen(PORT, () => {
-    console.log('Server sudah berjalan cuy, silahkan buka http://localhost:', PORT);
+    console.log(`Server sudah berjalan cuy, silahkan buka http://localhost:${PORT}`);
 });
