@@ -3,7 +3,7 @@ import db from "../config/Database.js";
 
 const { DataTypes } = Sequelize;
 
-const Cars = db.define('users',{
+const Cars = db.define('cars',{
     name_mobil: {
         type: DataTypes.STRING
     },
